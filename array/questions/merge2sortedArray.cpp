@@ -33,12 +33,12 @@ void sort2arr(int arr1[], int n, int arr2[], int m)
             }
         }
     }
-    display(arr1, n);
-    display(arr2, m);
 }
 
 int main()
 {
     int arr1[4] = {1, 3, 4, 5}, arr2[3] = {2, 6, 8};
     sort2arr(arr1, 4, arr2, 3);
+    display(arr1, n);
+    display(arr2, m);
 }
